@@ -2,4 +2,10 @@ const getName = (name) => {
     return name
 }
 
-console.log(getName('Chris'))
+let name = 'Chris'
+
+console.log(getName(name))
+
+name = 'Linda'
+
+console.log(getName(name))
